@@ -1,6 +1,5 @@
-p {
-    color: aquamarine;
-    background-color: blue;
-    width: fit-content;
-    height: fit-content;
-}
+img {
+    display: block;
+    margin: 1 auto;
+    max-width: 100%;
+  }
