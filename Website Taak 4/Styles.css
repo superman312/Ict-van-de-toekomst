@@ -1,13 +1,13 @@
 img {
-    display: block;
-    margin: 1 auto;
-    max-width: 100%;
-  }
+  display: block;
+  margin: 0 auto;
+  max-width: 700px;
+  max-height: 700px;
+}
 body {
     background-color: #0A98A8;
     font-family: Arial;
 }
-
 ul {
   list-style-type:none;
   margin: 0;
@@ -15,11 +15,9 @@ ul {
   overflow: hidden;
   background-color: #333;
 }
-
 li {
   float:left;
 }
-
 li a {
   display: block;
   color: white;
@@ -28,8 +26,7 @@ li a {
   text-decoration: none;
   font-weight: bold;
 }
-
-/* Change the link color to #111 (black) on hover */
+/* hover color for navbar */
 li a:hover {
   background-color: #111;
 }
@@ -39,6 +36,11 @@ li a:hover {
   font-size: 300%;
   font-weight: bold;
   text-align: center;
-
+}
+.voorstel {
+  color: white;
+  font-size: 150%;
+  font-weight: bold;
+  text-align: center;
 }
 
