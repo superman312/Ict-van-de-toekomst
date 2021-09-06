@@ -3,3 +3,6 @@ img {
     margin: 1 auto;
     max-width: 100%;
   }
+body {
+    background-color: cornflowerblue;
+}
