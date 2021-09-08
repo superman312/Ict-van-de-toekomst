@@ -29,25 +29,25 @@ li a:hover {
   background-color: #111;
 }
 
-.voorstellen {
+.present {
   color: white;
   font-size: 300%;
   font-weight: bold;
   text-align: center;
 }
-.voorstel {
+.presente {
   color: white;
   font-size: 150%;
   font-weight: bold;
   text-align: center;
 }
-.nu {
+.now {
   color: white;
   font-size: 150%;
   font-weight: bold;
   text-align: left;
-}
-.vlak {
+} 
+.after {
   color: white;
   font-size: 150%;
   font-weight: bold;
