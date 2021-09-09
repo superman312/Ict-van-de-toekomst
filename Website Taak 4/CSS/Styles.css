@@ -59,4 +59,22 @@ li a:hover {
   font-weight: bold;
   text-align: left;
 }
-
+.collega {
+  color: white;
+  font-size: 150%;
+  font-weight: bold;
+  text-align: left;
+}
+.names {
+  color: white;
+  font-weight: bold;
+  text-align: left;
+}
+.vacatures {
+  color: white;
+  font-weight: bold;
+  text-align: left;
+  text-decoration: none;
+  text-decoration: underline;
+  font-size: 150%;
+}
