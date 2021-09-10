@@ -11,6 +11,8 @@ ul {
   padding: 0;
   overflow: hidden;
   background-color: #333;
+  border: solid, 5px;
+  border-radius: 5px;
 }
 li {
   float:left;
@@ -33,7 +35,7 @@ li a:hover {
   color: white;
   font-size: 300%;
   font-weight: bold;
-  text-align: center;
+  
 }
 .presente {
   color: white;
@@ -46,6 +48,8 @@ li a:hover {
   font-size: 150%;
   font-weight: bold;
   text-align: left;
+  border-style:solid;
+  border-color: red;
 } 
 .after {
   color: white;
