@@ -52,7 +52,8 @@ li a:hover {
   border-color: black;
   padding: 5px;
   width: fit-content;
-} 
+  line-height: 10mm;
+}
 .after {
   color: whitesmoke;
   font-size: 150%;
@@ -62,6 +63,8 @@ li a:hover {
   border-color: black;
   padding: 5px;
   width: fit-content;
+  line-height: 10mm;
+}
 }
 .after5 {
   color: whitesmoke;
@@ -72,6 +75,7 @@ li a:hover {
   border-color: black;
   padding: 5px;
   width: fit-content;
+  line-height: 10mm;
 }
 .collega {
   color: whitesmoke;
