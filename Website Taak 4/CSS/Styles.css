@@ -19,7 +19,7 @@ li {
 }
 li a {
   display: block;
-  color: white;
+  color: whitesmoke;
   text-align: center;
   padding: 14px 16px;
   text-decoration: none;
@@ -32,53 +32,91 @@ li a:hover {
 }
 
 .present {
-  color: white;
+  color: whitesmoke;
   font-size: 300%;
   font-weight: bold;
-  
+  text-align: center;
 }
 .presente {
-  color: white;
-  font-size: 150%;
+  color: whitesmoke;
+  font-size: 200%;
   font-weight: bold;
   text-align: center;
 }
 .now {
-  color: white;
+  color: whitesmoke;
   font-size: 150%;
   font-weight: bold;
   text-align: left;
   border-style:solid;
-  border-color: red;
+  border-color: black;
+  padding: 5px;
+  width: fit-content;
 } 
 .after {
-  color: white;
+  color: whitesmoke;
   font-size: 150%;
   font-weight: bold;
   text-align: left;
+  border-style:solid;
+  border-color: black;
+  padding: 5px;
+  width: fit-content;
 }
 .after5 {
-  color: white;
+  color: whitesmoke;
   font-size: 150%;
   font-weight: bold;
   text-align: left;
+  border-style:solid;
+  border-color: black;
+  padding: 5px;
+  width: fit-content;
 }
 .collega {
-  color: white;
+  color: whitesmoke;
   font-size: 150%;
   font-weight: bold;
   text-align: left;
+  border-style:solid;
+  border-color: black;
+  padding: 5px;
+  width: fit-content;
 }
 .names {
-  color: white;
+  color: whitesmoke;
   font-weight: bold;
   text-align: left;
 }
 .vacatures {
-  color: white;
+  color: whitesmoke;
+  font-size: 200%;
   font-weight: bold;
   text-align: left;
-  text-decoration: none;
-  text-decoration: underline;
-  font-size: 150%;
+  border-style:solid;
+  border-color: black;
+  padding: 5px;
+  width: fit-content;
+  line-height: 15mm;
 }
+.vacature {
+  display: block;
+  color: whitesmoke;
+  text-align: right;
+  padding: 20px 22px;
+  text-decoration: none;
+  font-weight: bold;
+  font-family: Arial;
+  font-size: 200%;
+}
+.vacature:hover {
+  background-color: #111;
+}
+.vacature {
+  list-style-type:none;
+  overflow: hidden;
+  background-color: #333;
+  border: solid, 5px;
+  border-radius: 5px;
+}
+
