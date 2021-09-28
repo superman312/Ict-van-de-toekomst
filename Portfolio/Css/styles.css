@@ -7,22 +7,42 @@
     src: url(../Fonts/IBMPlexSerif-SemiBold.ttf);
 }
 body {
-    background-color: #2F4659;
     margin: 0px;
+    padding: 0px;
 }
+.bg{
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
 .navbar {
     text-align: right;
     background-color: #006e8c;
-    padding: 20px;
+    padding: 5px;
     word-spacing: 30px;
     padding-right: 50px;
     font-family: Glacial;
+    position: sticky;
 }
 .navbartext {
     color: white;
     text-decoration: none;
+    line-height: 70px;
+    font-size: 19px;
 }
 .img {
-    /* width: 100px; */
+    width: 65px;
+    float: left;
+    margin: 4px;
+    vertical-align: top;
 }
-
+.div {
+    padding: 0px;
+}
+.header1{
+    font-family: IBM;
+    color: white;
+    text-align: center;
+    font-size: 75px;
+    position: relative;
+    top: 30px;
+}
