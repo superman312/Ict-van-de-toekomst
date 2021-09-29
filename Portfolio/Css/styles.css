@@ -13,15 +13,20 @@ body {
 .bg{
     background-repeat: no-repeat;
     background-size: cover;
+    background-image: url(../Img/bgp.jpg);
+    height: 975px;
   }
 .navbar {
     text-align: right;
     background-color: #006e8c;
     padding: 5px;
-    word-spacing: 30px;
+    word-spacing: 20px;
     padding-right: 50px;
     font-family: Glacial;
-    position: sticky;
+    position: fixed;
+    top: 0px;
+    width: 96vw;
+    z-index: 2;
 }
 .navbartext {
     color: white;
@@ -45,4 +50,24 @@ body {
     font-size: 75px;
     position: relative;
     top: 30px;
+}
+.active{
+    background-color:#11bbeb;
+    border: #11bbeb solid 10px ;
+    border-radius: 5px 0px 0px 5px;
+}
+.active2{
+    background-color:#11bbeb;
+    border: #11bbeb solid 10px ;
+}
+.active3{
+    background-color:#11bbeb;
+    border: #11bbeb solid 10px ;
+    border-radius: 0px 5px 5px 0px;
+}
+a:hover{
+    color: rgb(0, 131, 253);
+}
+.back{
+
 }
