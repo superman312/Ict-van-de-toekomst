@@ -25,7 +25,7 @@ body {
     font-family: Glacial;
     position: fixed;
     top: 0px;
-    width: 96vw;
+    width: 97vw;
     z-index: 2;
 }
 .navbartext {
@@ -68,6 +68,19 @@ body {
 a:hover{
     color: rgb(0, 131, 253);
 }
-.back{
-
+::-webkit-scrollbar {
+    width: 0.6rem;
+}
+::-webkit-scrollbar-thumb {
+    background-color: #0fe40f;
+    border-radius: 1rem;
+}
+::-webkit-scrollbar-thumb:hover {
+    background-color: darkcyan;
+}
+::-webkit-scrollbar-thumb:active {
+    background-color: darkcyan;
+}
+::-webkit-scrollbar-track{
+    background-color: rgb(65, 166, 197);
 }
